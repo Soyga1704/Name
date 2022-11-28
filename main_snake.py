@@ -2,6 +2,10 @@ import pygame
 import sys
 import random
 import time
+import os
+
+mushroomImg = pygame.image.load(os.path.join('Downloads','mushroom.png'))
+mushroomImg = pygame.transform.scale(mushroomImg, (10, 10))
 
 from snake_food import Food
 from snake_snake import Snake
