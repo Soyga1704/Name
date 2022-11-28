@@ -13,7 +13,7 @@ from snake_game import Game
 
 game = Game()
 snake = Snake(game.green)
-food = Food(game.brown, game.screen_width, game.screen_height)
+food = Food(game.screen_width, game.screen_height)
 
 game.init_and_check_for_errors()
 game.set_surface_and_title()
