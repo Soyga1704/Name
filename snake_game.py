@@ -40,7 +40,7 @@ class Game():
                     change_to = "UP"
                 elif event.key == pygame.K_DOWN or event.key == ord('s'):
                     change_to = "DOWN"
-                elif event.key == pygame.K_ESCAPE:
+                elif event.key == pygame.K_q:
                     pygame.quit()
                     sys.exit()
         return change_to
